@@ -1,0 +1,5 @@
+Clear all; close all;
+n=0:1:5;
+ramp=n.*(2.*(n>=0));
+stem(n,ramp)
+grid
