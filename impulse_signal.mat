@@ -1,0 +1,5 @@
+clearall; close all;
+n=-5:1:5;
+impulse=2.*(n==0);
+stem(n,impulse)
+grid
